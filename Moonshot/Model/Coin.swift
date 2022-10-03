@@ -7,12 +7,12 @@
 
 import Foundation
 
-class Crypto: Codable {
-    let id: UUID
+class Coin: Codable {
+    let id: String
     let name: String
     let symbol: String
     
-    init(id: UUID, name: String, symbol: String) {
+    init(id: String, name: String, symbol: String) {
         self.id = id
         self.name = name
         self.symbol = symbol
